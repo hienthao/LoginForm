@@ -129,6 +129,7 @@ const styles = StyleSheet.create({
     height: bannerHight,
   },
   formView: {
+    flex: 1,
     margin: 20,
   },
   loginView: {
@@ -136,7 +137,9 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   signupView: {
-    justifyContent: "flex-end",
-    //alignItems: "flex-end"
+    width: "100%",
+    position: "absolute",
+    bottom: 0
+
   },
 });
