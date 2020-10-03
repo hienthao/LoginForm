@@ -3,17 +3,14 @@ import {
   StyleSheet,
   Text,
   View,
-  Image,
   TextInput,
-  TouchableHighlight,
   TouchableOpacity,
-  TouchableNativeFeedback,
   TouchableWithoutFeedback,
   SafeAreaView,
 } from "react-native";
 import { Feather } from "@expo/vector-icons";
 
-export default function Login() {
+export default function MomoLogin() {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: "deeppink" }}>
       <View style={styles.container}>
