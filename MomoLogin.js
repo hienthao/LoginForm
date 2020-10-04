@@ -36,7 +36,7 @@ export default function MomoLogin() {
             size="16"
             style={{ position: "absolute", top: 15, left: 10, zIndex:8 }}
           ></Feather>
-          <TextInput
+          <TextInput secureTextEntry="true"
             style={{
               borderRadius: 20,
               height: 50,

@@ -13,7 +13,7 @@ import {
   SafeAreaView,
   Dimensions,
 } from "react-native";
-import FacebookBannerImage from "/Users/hienbui/biplus_projects/react-native-study/LoginForm/assets/facebook-banner.png";
+import FacebookBannerImage from "./assets/facebook-banner.png";
 
 export default function FacebookLogin() {
   return (
@@ -36,7 +36,7 @@ export default function FacebookLogin() {
           ></TextInput>
           <TextInput
             placeholder="Password"
-            secureTextEntry="true"
+            secureTextEntry = {true}
             style={{
               color: "grey",
               height: 50,
@@ -85,6 +85,17 @@ export default function FacebookLogin() {
               </Text>
             </TouchableWithoutFeedback>
           </View>
+        </View>
+        <View style={{
+          width:200,
+          height: 1,
+          borderTopWidth: 1
+        }}>
+            <View style={{
+              position: "absolute",
+            }}>
+              <Text>OR</Text>
+            </View>
         </View>
         <View style={styles.signupView}>
           <TouchableOpacity
